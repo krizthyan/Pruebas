@@ -18,7 +18,7 @@ import com.bci.test.client.dto.UserDto;
 import com.bci.test.client.entity.Phones;
 import com.bci.test.client.entity.User;
 import com.bci.test.client.repository.PhonesRepository;
-import com.bci.test.client.repository.UserRerpository;
+import com.bci.test.client.repository.UserRepository;
 
 @Service
 public class UserService {
@@ -26,7 +26,7 @@ public class UserService {
 	 private static final Logger logger = LoggerFactory.getLogger(UserService.class);
 	
 	@Autowired
-	private UserRerpository userRerpository; 
+	private UserRepository userRerpository; 
 	
 	@Autowired
 	private PhonesRepository phonesRepository;
